@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minmum-scale=1.0, maxmum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style:none;
+		}
+		a{
+			text-decoration: none;
+		}
+		html,body,.box{
+			width:100%;
+			height:100%;
+		}
+		.box{
+			display:flex;
+			flex-direction:column;
+		}
+		header{
+			width:100%;
+			height:50px;
+			background:#2e2f31;
+			color:#fff;
+			display:flex;
+			line-height: 50px;
+			font-size:17px;
+			z-index:99;
+		}
+		.left{
+			flex:1;
+			text-align: center;
+		}
+		.text{
+			flex:8;text-align: center;
+		}
+		.cd{
+			flex:1;text-align: center;
+			font-size:25px;
+		}
+		main{
+			flex:1;
+			width:100%;
+		}
+		.mark{
+			width:100%;
+			height:100%;
+			background:rgba(0,0,0,.5);
+			position:fixed;
+			top:0;
+			left:0;
+			z-index:9;
+		}
+		.box_2{
+			width:80%;
+			height:300px;
+			position:fixed;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			margin:auto;
+			background: #fff;
+			border-radius: 5px;
+			padding-top: 20px;
+		}
+		.head{
+			width:100%;
+		}
+		.head dl{
+			width:60%;
+			margin-left:20%;
+		}
+		.head dl dt a img{
+			width:80%;
+			margin-left: 10%;
+		}
+		dl dd{
+			width:100%;
+			text-align:center;
+			font-size:16px;
+		}
+		.inp{
+			width:90%;
+			margin-left:10%;
+			position: relative;
+		}
+		#tet,#pas{
+			width:90%;
+			height:40px;
+			border:none;
+			border-bottom:1px solid #000;
+			margin-top: 20px;
+		}
+		button{
+			width:90%;
+			margin-top: 20px;
+			height:35px;
+			background:#2fba77;
+			color:#fff;
+			border:none;
+			border-radius: 5px;
+		}
+		#img1{
+			position:absolute;
+			right:25px;
+			top:28px;
+			width:18px;
+		}
+		#img2{
+			position:absolute;
+			right:25px;
+			top:95px;
+			width:18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<header>
+			<div class="left">X</div>
+			<div class="text">设备测试预约系统</div>
+			<div class="cd">···</div>
+		</header>
+		<main></main>
+		<footer></footer>
+		<div class="mark">
+			<div class="box_2">
+				<div class="head">
+					<dl>
+						<dt><a href="#"><img src="img/logo_01.png" alt=""></a></dt>
+						<dd>设备测试预约系统</dd>
+					</dl>
+				</div>
+				<div class="inp">
+					<input type="text" id='tet' placeholder='请输入手机号'><img id='img1' src="img/icon_01.png" alt="">
+					<input type="password" id='pas' placeholder='请输入密码'><img id='img2' src="img/icon_03.png" alt="">
+					<button>登录账号，开始预约</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
