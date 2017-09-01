@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minmum-scale=1.0, maxmum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		html,body,.box{
+			width:100%;
+			height:100%;
+			background: #f7f7f7;
+		}
+		.box{
+			display: flex;
+			flex-direction:column;
+		}
+		header{
+			width:100%;
+			height:40px;
+			display: flex;
+			line-height:40px;
+			background:#fff;
+		}
+		header div{
+			flex:1;
+			text-align:center;
+		}
+		main{
+			flex:1;
+			margin-top:10px;
+			background: #fff;
+			overflow: auto;
+		}
+		.boxs{
+			width:90%;
+			margin-left: 5%;
+			margin-top: 5%;
+			border:1px solid #000;
+			border-radius: 5px;
+			height:100px;
+		}
+		.head{
+			width:100%;
+			height:50px;
+			color:#fff;
+			background:red;
+			position: relative;
+		}
+		.moneys{
+			position: absolute;
+			top:5px;
+			left:10px;
+			font-size:20px;
+		}
+		.money{
+			position: absolute;
+			top:0px;
+			left:30px;
+			font-size:40px;
+		}
+		.name{
+			position: absolute;
+			right:10px;
+			top:15px;
+		}
+		.foot{
+			padding-left:20px;
+			padding-right: 20px;
+
+		}
+		.tet{
+			color:blue;
+			font-size: 12px;
+			overflow: hidden;
+		    text-overflow:ellipsis;
+		    white-space:nowrap;
+		    line-height: 30px;
+		}
+		.tet2{
+			color:#333;
+			font-size: 12px;
+			overflow: hidden;
+		    text-overflow:ellipsis;
+		    white-space:nowrap;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<header>
+			<div>未使用</div>
+			<div>已使用</div>
+			<div>已过期</div>
+		</header>
+		<main>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+			<div class="boxs">
+				<div class="head">
+					<span class="moneys">￥</span>
+					<span class="money">5</span>
+					<span class="name">满减卷</span>
+				</div>
+				<div class="foot">
+					<p class="tet">使用门栏：1.满100元可使用 2.本卷适用于所有项目</p>
+					<p class="tet2">使用时间：即日起至2016年11月10日</p>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+</html>
